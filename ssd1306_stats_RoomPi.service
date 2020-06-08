@@ -1,0 +1,13 @@
+[Unit]
+Description= ssd1306_stats_RoomPi.py
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 -u /home/dietpi/ssd1306_stats/ssd1306_stats_RoomPi.py
+WorkingDirectory=/home/dietpi/ssd1306_stats/
+StandardOutput=inherit
+StandardError=inherit
+User=root
+
+[Install]
+WantedBy=multi-user.target
