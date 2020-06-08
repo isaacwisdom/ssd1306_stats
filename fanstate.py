@@ -1,3 +1,5 @@
+#This is a test of the ability to read a GPIO pin from an external program.
+#Other Raspberry Pi GPIO programs seem to support this ability, but it seems that CircuitPython does not.
 import board
 import digitalio
 
