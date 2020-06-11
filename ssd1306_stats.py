@@ -67,8 +67,8 @@ Button2 = AnalogIn(mcp, MCP.P1)
 Fan = digitalio.DigitalInOut(board.D25)
 Fan.direction = digitalio.Direction.OUTPUT
 #Control this pin by using Fan.value = True or Fan.value = False
-ON_THRESHOLD = 60
-OFF_THRESHOLD = 50
+ON_THRESHOLD = 62
+OFF_THRESHOLD = 52
 
 
 disp.fill(0) #clear display
